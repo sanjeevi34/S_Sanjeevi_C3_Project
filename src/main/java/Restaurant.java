@@ -67,4 +67,8 @@ public class Restaurant {
         return name;
     }
 
+    // Method to get the list of items chosen by the user and return the total cost of the order
+    public int placeOrderAndGetCost(List<String> order){
+        return -1;
+    }
 }
