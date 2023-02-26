@@ -106,4 +106,10 @@ class RestaurantTest {
         assertEquals(0,orderTotalCost);
     }
     //<<<<<<<<<<<<<<<<<<<<<<<CALCULATE TOTAL COST>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    @Test
+    public void checking_display_details_of_restaurant() {
+        // To improve the test coverage
+        restaurant.displayDetails();
+    }
 }
